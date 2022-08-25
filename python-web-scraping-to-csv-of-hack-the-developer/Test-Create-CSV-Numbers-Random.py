@@ -4,6 +4,7 @@ import csv
 # library for create numbers random
 import random
 
+# create new csv file
 csvFile = open('test.csv', 'w+')
 try:
     writer = csv.writer(csvFile)
